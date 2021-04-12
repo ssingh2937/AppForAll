@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_grade_entry">
+
+    <fragment
+        android:id="@+id/nav_grade_entry"
+        android:name="com.sandhu.appforall.Fragments.EnterGradesFragment"
+        android:label="@string/menu_grade_entry"
+        tools:layout="@layout/fragment_enter_grades" />
+
+    <fragment
+        android:id="@+id/nav_view_grades"
+        android:name="com.sandhu.appforall.Fragments.ViewGradesFragment"
+        android:label="@string/menu_view_grades"
+        tools:layout="@layout/fragment_view_grades" />
+
+    <fragment
+        android:id="@+id/nav_search"
+        android:name="com.sandhu.appforall.Fragments.SearchFragment"
+        android:label="@string/menu_search"
+        tools:layout="@layout/fragment_search" />
+
+</navigation>

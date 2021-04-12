@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">AppForAll</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">AppForAll</string>
+    <string name="nav_header_subtitle">Track your grades</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_grade_entry">Grade entry</string>
+    <string name="menu_view_grades">View grades</string>
+    <string name="menu_search">Search</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="name">Name</string>
+    <string name="programCode">Program code</string>
+    <string name="grade">Grade</string>
+    <string name="duration">Duration</string>
+    <string name="fees">Fees</string>
+    <string name="id">ID</string>
+</resources>
